@@ -43,6 +43,6 @@ Interface web interactive sur une seule page
 
 ## Lancer l’application
 
-pip install -r requirements.txt  qui sert à installer automatiquement toutes les bibliothèques nécessaires au projet, en une seule fois.
+pip install streamlit pandas duckdb matplotlib
 
 streamlit run app.py
