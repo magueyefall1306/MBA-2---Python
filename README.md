@@ -3,7 +3,7 @@
  # Dashboard KPI – Streamlit & DuckDB
 
 ## Description
-Application web interactive développée avec Streamlit permettant
+Application web interactive développée avec Streamlit et duckdb permettant
 d’analyser des données de ventes à partir de fichiers CSV.
 Les données sont stockées et interrogées via DuckDB, une base de données
 analytique embarquée, offrant des requêtes SQL rapides et efficaces sans
@@ -43,6 +43,6 @@ Interface web interactive sur une seule page
 
 ## Lancer l’application
 
-pip install streamlit pandas duckdb matplotlib
+ pour installer les bibliothequer necessaire :  pip install streamlit pandas duckdb matplotlib
 
-streamlit run app.py
+ pour lancerl'application :  streamlit run app.py
